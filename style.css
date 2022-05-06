@@ -1,0 +1,50 @@
+body {
+    font: 'Raleway', sans-serif;
+    color: rgba(0,0,0,0.5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+    top: 15%;
+    /* background: linear-gradient(to right, red, yellow); */
+}
+
+h1 {
+    font: 600 3.5em 'Raleway', sans-serif;
+    color: rgba(0,0,0,0.5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+    width: 100%;
+}
+
+h3 {
+    font: 900 1em 'Raleway', sans-serif;
+    color: rgba(0,0,0,0.5);
+    text-align: center;
+    text-transform: none;
+    letter-spacing: 0.01em;
+}
+
+.btn {
+    font-weight: 400;
+    line-height: 1.5;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    background-color: #7a7c80;
+    border: 1px solid transparent;
+    padding: 0.275rem 0.75rem;
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.btn:hover {
+    color: #fff;
+    background-color: #5e6164;
+}
